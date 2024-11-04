@@ -1,0 +1,82 @@
+/* @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #2f363e;}
+.fa-solid{
+    font-size: 30px;
+}
+
+.container {
+    position: relative;
+    width: 500px;
+    height: 550px;
+    border-radius: 30px;
+    background: #f2f5f8;
+    padding: 30px 50px;
+    box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.25),
+        10px 10px 70px rgba(0, 0, 0, 0.25),
+        inset 5px 5px 10px rgba(0, 0, 0, 0.5),
+        inset 5px 5px 20px rgba(255, 255, 255, 0.2),
+        inset -5px -5px 15px rgba(0, 0, 0, 0.75);
+}
+#inp{
+    margin: 5%;
+    width: 270px;
+    padding: 8px;
+    border: 2px solid rgb(1, 1, 61);
+    outline: none;
+}
+button{
+    width: 60px;
+    height: 41px;
+    background-color: rgb(1, 1, 61);
+    color: aliceblue;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+
+}
+.text ul{
+    position: relative;
+    background-color: rgb(1, 1, 61);
+    color: #eff3ef;
+    font-size: 20px;
+    /* text-align: center; */
+    padding: 7px;
+}
+.text ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+@media (max-width: 470px) {
+    .container- {
+        width: 100px;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.3em;
+    }
+
+    #inp {
+        width: 150px;
+        padding: 4px;
+        font-size: 0.9em;
+    }
+    button{
+        width: 40px;
+        height: 21px;
+    }
+}
